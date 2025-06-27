@@ -1,0 +1,57 @@
+body {
+  background-color: #1B244A;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+
+.scoreboard {
+  display: flex;
+  gap: 100px;
+}
+
+.team {
+  text-align: center;
+}
+
+.score {
+  font-size: 90px;
+  background-color: black;
+  color: #F94F6D;
+  padding: 20px 40px;
+  border-radius: 8px;
+  box-shadow: 0 0 20px #F94F6D;
+  width: 120px;
+  margin: 10px auto;
+
+}
+
+.buttons button, .reset {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 10px 15px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.buttons button:hover, .reset:hover {
+  background-color: white;
+  color: #1B244A;
+}
+
+.footer {
+  margin-top: 40px;
+  text-align: center;
+}
+
+#leader-message {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
